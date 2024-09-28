@@ -1,0 +1,258 @@
+nav ul {
+  background-color: #FE1B00;
+}
+/* line 7, ../sass/partials/_header.scss */
+nav a:visited {
+  background: #FE642E;
+  color: #F7FE2E;
+}
+
+#mi{
+	margin-bottom:50px !important;
+}
+
+#rock{
+	margin-bottom:70px !important;
+}
+
+
+#impro{
+	margin-bottom:140px;
+}
+
+.brand-logo a:visited {
+  background: none;
+  color: #F7FE2E;
+}
+
+/* line 11, ../sass/partials/_header.scss */
+nav a:hover, nav a:active {
+  background: #FE642E;
+  color: #F7FE2E;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+/* line 2, ../sass/partials/_footer.scss */
+a:hover, a:active {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+/* line 12, ../sass/screen.scss */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* line 18, ../sass/screen.scss */
+main {
+  flex: 1 0 auto;
+}
+
+/* line 22, ../sass/screen.scss */
+h1, h2, h5 {
+  font-family: Lobster, sans;
+}
+
+/* line 26, ../sass/screen.scss */
+h1 {
+  font-size: 6rem;
+}
+
+/* line 30, ../sass/screen.scss */
+h2 {
+  font-size: 2.6rem;
+}
+
+/* line 34, ../sass/screen.scss */
+.accroche {
+  height: 500px;
+}
+
+/* line 38, ../sass/screen.scss */
+.centrealignement {
+  width: 100%;
+}
+
+/* line 42, ../sass/screen.scss */
+.padding-perso {
+  padding-top: 2rem;
+}
+
+/* line 46, ../sass/screen.scss */
+#subtitle {
+  opacity: 0.8;
+}
+
+/* line 48, ../sass/screen.scss */
+#logo {
+  margin-left: 15px;
+  font-size: 25px;  
+  font-family: Lobster, sans;
+}
+
+a .brand-logo{
+	text-decoration:none; 
+}
+
+/* line 54, ../sass/screen.scss */
+#menu {
+  font-family: Lobster, sans;
+  font-size: 22px !important;
+}
+
+/* line 59, ../sass/screen.scss */
+#menu-card {
+  font-family: Lobster, sans;
+  font-size: 15px !important;
+}
+
+/* line 64, ../sass/screen.scss */
+.footer-text {
+  font-family: Lobster, sans;
+  font-size: 20px !important;
+}
+
+/* line 69, ../sass/screen.scss */
+#presentation {
+  margin-top: 45px;
+}
+
+/* line 71, ../sass/screen.scss */
+.top {
+  margin-top: 15px !important;
+}
+
+/* line 73, ../sass/screen.scss */
+#top {
+  margin-top: 300px !important;
+}
+
+footer{
+	background:-moz-linear-gradient(top,#FA5858 0%,#FF0000 50%);
+	background:-webkit-gradient(linear,0% 0%,0% 50%, from(#FA5858), to(#FF0000));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FA5858',endColorstr='#FF0000',GradientType=0);
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FA5858',endColorstr='#FF0000',GradientType=0);
+}
+
+#navigation{
+	background:-moz-linear-gradient(top,#FA5858 0%,#FF0000 50%);
+}
+
+
+/* line 75, ../sass/screen.scss */
+#acoustic {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 500px;
+}
+
+.border-shadows{
+	-moz-box-shadow: 5px 5px 5px red; 
+	-webit-box-shadow: 5px 20px 10px red;
+	-o-box-shadow: 10px 20px 10px red;box-shadow: 5px 5px 5px #FF0000;padding:5px;
+	border:solid 1px black;	
+	background-color:#eee;
+}
+
+/* line 81, ../sass/screen.scss */
+#electric {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 400px;
+}
+
+/* line 87, ../sass/screen.scss */
+.guitimg {
+  margin-left: -0.5px;
+}
+
+.shadows{
+	-moz-text-shadow: 10px 20px 10px #333; 
+	-webit-text-shadow: 10px 20px 10px #333;
+	-o-text-shadow: 10px 20px 10px #333;	
+	text-shadow: 10px 20px 10px #333;
+}
+
+@font-face{
+	font-family:note;
+	src:url(fonts/note_this.ttf);
+}
+
+#guitarists{
+	margin-bottom:120px;
+	font-family: Lobster, sans;
+	margin-left: auto;
+    margin-right: auto;
+	width: 900px;
+}
+
+#guitarist1,#guitarist2,#guitarist3{
+	width:340px;
+	height:320px;
+	background-color:#FFF;
+	padding:10px;
+	margin-left:-15px;
+	
+	font-size:24px;
+	
+	-moz-box-shadow:8px 8px 10px #999;
+	-webkit-box-shadow:8px 8px 10px #999;
+	-o-box-shadow:8px 8px 10px #999;
+	box-shadow:8px 8px 10px #999;
+}
+
+#guitarist1{
+	-moz-transform:rotate(18deg);
+	-webkit-transform:rotate(18deg);
+	-o-transform:rotate(18deg);
+	transform:rotate(18deg);	
+	margin-top:60px;
+	left:5px;	
+}
+
+#guitarist2{
+	-moz-transform:rotate(-15deg);
+	-webkit-transform:rotate(-18deg);
+	-o-transform:rotate(-18deg);
+	transform:rotate(-18deg);
+	margin-top:60px;
+	left:300px;
+}
+
+#guitarist3{
+	-moz-transform:rotate(18deg);
+	-webkit-transform:rotate(18deg);
+	-o-transform:rotate(18deg);
+	transform:rotate(18deg);
+	margin-top:60px;
+	left:720px;
+	
+}
+
+@media (max-width: 767px) {
+	#g1, #g2, #g3{ 
+		margin-left:auto;
+		margin-right:auto;
+		height:150px;
+		width:150px;
+	}
+	
+	#guitarist1{		
+		margin-left:40px;	
+		width:210px;
+		height:240px;
+	}
+	
+	#guitarist2{		
+		margin-left:40px;	
+		width:210px;
+		height:240px;
+	}
+	
+	#guitarist3{		
+		margin-left:40px;	
+		width:210px;
+		height:240px;
+	}
+}

@@ -1,0 +1,17 @@
+nav{
+	ul{	
+		@include background-color(#FE1B00);		
+	}
+	
+	a{
+		&:visited{
+			@include background(#FE642E);
+			@include color(#F7FE2E);			
+		}
+		&:hover, &:active{
+			@include background(#FE642E);
+			@include color(#F7FE2E);			
+			@include border-bottom(2px solid #FFFFFF);	
+		}
+	}
+}

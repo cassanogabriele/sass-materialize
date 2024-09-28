@@ -1,0 +1,23 @@
+@mixin border-bottom($bottom){
+	border-bottom:$bottom;
+}
+
+@mixin background-color($background-color){
+	background-color:$background-color;
+}
+
+@mixin background($background){
+	background:$background;
+}
+
+@mixin color($color){
+	color:$color;
+}
+
+@mixin bgactivehover($bgactivehover){
+	background:$bgactivehover;
+}
+
+@mixin colorctivehover($coloractivehover){
+	color:$coloractivehover;
+}

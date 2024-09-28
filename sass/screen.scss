@@ -1,0 +1,98 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "partials/mixin";
+@import "partials/header";
+@import "partials/variables";
+@import "partials/footer";
+
+
+body {
+ 	display: flex;
+ 	min-height: 100vh;
+ 	flex-direction: column;
+}
+
+ main {
+ 	flex: 1 0 auto;
+ }
+
+ h1,h2,h5{
+ 	font-family:$font;
+ }
+
+ h1{
+ 	font-size:$h1size;
+ }
+
+ h2{
+ 	font-size:$h2size;
+ }
+
+ .accroche{
+ 	height: $haccroche; 	
+ }
+
+ .centrealignement{
+ 	width: $calign;
+ }
+
+ .padding-perso{
+ 	padding-top:$pp;
+ }
+
+ #subtitle{ opacity:$sub; }
+
+ #logo{
+ 	margin-left:15px;
+ 	font-size:$fs;
+ 	font-family:$font;
+ }
+
+ #menu{
+ 	font-family:$font;
+ 	font-size:$fmenu;
+ }
+
+ #menu-card{
+ 	font-family:$font;
+ 	font-size:$fcar;
+ }
+
+ .footer-text{ 
+ 	font-family:$font;
+ 	font-size: $ffooter;
+ }
+
+ #presentation{ margin-top:$pres; }
+
+ .top{ margin-top:$top; }
+ 
+ #top{ margin-top: $top2; }
+ 
+ #acoustic{
+	margin:$margin ;
+	margin-bottom:$mbottom;
+	width:$w1;
+ }
+ 
+ #electric{
+	margin: $margin;
+	margin-bottom:$mbottom;
+	width:$w2;
+ }
+ 
+.guitimg{
+	margin-left: $widthguit;
+}
+
+
+
+
+
+
+
+
+
